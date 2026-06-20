@@ -4,6 +4,8 @@
 
 This repository contains my personal study notes for **Exam AI-103: Developing AI Apps and Agents on Azure**.
 
+A browser-friendly version of the study guide is published on [SokolovTech](https://sokolovtech.com/management/134-azure-ai-103-exam-study-guide-developing-ai-apps-and-agents-on-azure), while this repository keeps the markdown source, chapter structure, and future lab materials.
+
 The goal is not to copy Microsoft Learn or create another generic certification dump. Instead, this repo is my structured way of breaking down the AI-103 objectives into practical notes, examples, design patterns, and exam-focused reminders.
 
 AI-103 focuses on building modern AI applications and agents on Azure, especially around **Microsoft Foundry**, generative AI, retrieval-augmented generation, agentic workflows, multimodal AI, language services, search, and Responsible AI.
