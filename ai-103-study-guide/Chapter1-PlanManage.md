@@ -1,4 +1,4 @@
-# Chapter 1 — Plan and Manage an Azure AI Solution
+# Chapter 1 - Plan and Manage an Azure AI Solution
 
 **AI-103 exam weighting: 25–30%**
 
@@ -857,4 +857,4 @@ Monitor cost, latency, retrieval quality, safety, and grounding.
 ---
 
 **Previous:** [README](../README.md)
-**Next:** [Chapter 2 — Generative AI and Agentic Solutions](./Chapter2-GenerativeAgents.md)
+**Next:** [Chapter 2 - Generative AI and Agentic Solutions](./Chapter2-GenerativeAgents.md)
