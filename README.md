@@ -42,7 +42,7 @@ Microsoft updates exam objectives and Azure AI services regularly, so check the 
 
 The repository includes a one-page visual summary of the exam structure and main study areas.
 
-![AI-103 exam at a glance infographic showing domain weightings, Microsoft Foundry themes, Responsible AI focus areas, and preparation strategy](./AI-103-StudyGuide/images/exam-at-glance.png)
+![AI-103 exam at a glance infographic showing domain weightings, Microsoft Foundry themes, Responsible AI focus areas, and preparation strategy](./ai-103-study-guide/images/exam-at-glance.png)
 
 This image is intended as a quick revision aid before going into the detailed chapter notes.
 
