@@ -125,7 +125,7 @@ This chapter covers the foundation of an Azure AI solution:
 * Planning CI/CD for AI workloads
 * Applying Responsible AI controls
 
-[Open Chapter 1](./AI-103-StudyGuide/Chapter1-PlanManage.md)
+[Open Chapter 1](./ai-103-study-guide/Chapter1-PlanManage.md)
 
 ---
 
@@ -148,7 +148,7 @@ Topics include:
 * Fine-tuning considerations
 * Evaluation and optimization
 
-[Open Chapter 2](./AI-103-StudyGuide/Chapter2-GenerativeAgents.md)
+[Open Chapter 2](./ai-103-study-guide/Chapter2-GenerativeAgents.md)
 
 ---
 
@@ -188,7 +188,7 @@ Topics include:
 * Text-to-speech
 * Speech-enabled AI applications and agents
 
-[Open Chapter 4](./AI-103-StudyGuide/Chapter4-TextAnalysis.md)
+[Open Chapter 4](./ai-103-study-guide/Chapter4-TextAnalysis.md)
 
 ---
 
@@ -210,7 +210,7 @@ Topics include:
 * Semantic ranking
 * Grounding generative AI responses with search results
 
-[Open Chapter 5](./AI-103-StudyGuide/Chapter5-InformationExtraction.md)
+[Open Chapter 5](./ai-103-study-guide/Chapter5-InformationExtraction.md)
 
 ---
 
@@ -226,7 +226,7 @@ Topics include:
 * Quick revision reminders
 * Final readiness checklist
 
-[Open Appendix](./AI-103-StudyGuide/Appendix-Resources.md)
+[Open Appendix](./ai-103-study-guide/Appendix-Resources.md)
 
 ---
 
