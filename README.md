@@ -54,7 +54,7 @@ Microsoft updates exam objectives and Azure AI services regularly, so check the 
 
 The repository includes a one-page visual summary of the exam structure and main study areas.
 
-![AI-103 exam at a glance infographic showing domain weightings, Microsoft Foundry themes, Responsible AI focus areas, and preparation strategy](./AI-103-StudyGuide/images/exam-at-glance.png)
+![AI-103 exam at a glance infographic showing domain weightings, Microsoft Foundry themes, Responsible AI focus areas, and preparation strategy](./ai-103-study-guide/images/exam-at-glance.png)
 
 This image is intended as a quick revision aid before going into the detailed chapter notes.
 
@@ -64,7 +64,7 @@ This image is intended as a quick revision aid before going into the detailed ch
 
 A mind map is also included to show how the AI-103 domains connect across planning, agents, vision, language, information extraction, and platform building blocks.
 
-![AI-103 mind map showing the relationship between planning, generative AI, agents, vision, text analysis, information extraction, and platform components](./AI-103-StudyGuide/images/ai-103-mindmap.png)
+![AI-103 mind map showing the relationship between planning, generative AI, agents, vision, text analysis, information extraction, and platform components](./ai-103-study-guide/images/ai-103-mindmap.png)
 
 ---
 
@@ -92,7 +92,7 @@ The notes cover:
 ## Repository Structure
 
 ```text
-AI-103-StudyGuide/
+ai-103-study-guide/
 ├── Chapter1-PlanManage.md
 ├── Chapter2-GenerativeAgents.md
 ├── Chapter3-ComputerVision.md
