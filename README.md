@@ -4,52 +4,88 @@
 
 This repository contains my personal study notes for **Exam AI-103: Developing AI Apps and Agents on Azure**.
 
-The goal is not to copy Microsoft Learn or create another generic certification dump. Instead, this repo is my structured way of breaking down the AI-103 objectives into practical notes, examples, design patterns, and exam-focused reminders.
+I created it while preparing for the **Microsoft Certified: Azure AI Apps and Agents Developer Associate** certification and working through Microsoft Foundry, generative AI apps, agents, retrieval-augmented generation, Azure AI Search, multimodal AI, language services, document intelligence, and Responsible AI topics.
 
-AI-103 focuses on building modern AI applications and agents on Azure, especially around **Microsoft Foundry**, generative AI, retrieval-augmented generation, agentic workflows, multimodal AI, language services, search, and Responsible AI.
+The purpose of this repo is simple: turn the official AI-103 objectives into practical, readable, exam-focused notes that I can use for revision and hands-on practice.
 
 ---
 
-## Official Exam and Certification Links
+## Online Version
 
-Use these Microsoft pages as the source of truth:
+A browser-friendly version of this study guide is published on my website:
+
+**[Azure AI-103 Exam Study Guide: Developing AI Apps and Agents on Azure](https://sokolovtech.com/management/134-azure-ai-103-exam-study-guide-developing-ai-apps-and-agents-on-azure)**
+
+Use the website version when you want to read the guide as a formatted article.
+
+Use this GitHub repository for the markdown source, chapter structure, visual summaries, updates, and possible future lab examples.
+
+---
+
+## Acknowledgements
+
+This repository was inspired by the public AI-103 study guide created by **Pratip Bagchi**:
+
+* [pratip-bagchi/ai-103-study-guide](https://github.com/pratip-bagchi/ai-103-study-guide)
+
+Thank you to the original author for sharing a useful starting structure for AI-103 preparation.
+
+This repository has been rewritten and reorganized as my own study version, with updated wording, additional notes, revised visuals, Microsoft Learn links, and my own exam-focused explanations. Any mistakes or outdated information in this repo are my own.
+
+---
+
+## Official Microsoft Links
+
+Microsoft Learn and Microsoft certification pages should always be treated as the source of truth.
 
 * [Exam AI-103 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103)
 * [Microsoft Certified: Azure AI Apps and Agents Developer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/)
 * [AI-103T00-A: Develop AI apps and agents on Azure](https://learn.microsoft.com/en-us/training/courses/ai-103t00)
 * [Microsoft Foundry documentation](https://learn.microsoft.com/en-us/azure/foundry/)
 * [What is Microsoft Foundry?](https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry)
-* [Develop AI agents on Azure learning path](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/)
+* [Get started with AI applications and agents on Azure](https://learn.microsoft.com/en-us/training/paths/get-started-ai-apps-agents/)
+* [Develop AI agents on Azure](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/)
 
-Microsoft updates Azure AI services and exam objectives regularly, so always check the official study guide before relying on any third-party notes, including this repo.
+Microsoft updates exam objectives and Azure AI services regularly, so check the official AI-103 study guide before booking or sitting the exam.
 
 ---
 
-## Why I Created This Repo
+## Visual Overview
 
-I created this repository while preparing for AI-103 because the exam covers a wide set of topics:
+The repository includes a one-page visual summary of the exam structure and main study areas.
+
+![AI-103 exam at a glance infographic showing domain weightings, Microsoft Foundry themes, Responsible AI focus areas, and preparation strategy](./AI-103-StudyGuide/images/exam-at-glance.png)
+
+This image is intended as a quick revision aid before going into the detailed chapter notes.
+
+---
+
+## Mind Map
+
+A mind map is also included to show how the AI-103 domains connect across planning, agents, vision, language, information extraction, and platform building blocks.
+
+![AI-103 mind map showing the relationship between planning, generative AI, agents, vision, text analysis, information extraction, and platform components](./AI-103-StudyGuide/images/ai-103-mindmap.png)
+
+---
+
+## What This Repo Covers
+
+AI-103 is not only about memorising Azure AI service names. A lot of the exam preparation is about understanding when to use a specific Azure service, model, design pattern, or safety control.
+
+The notes cover:
 
 * Microsoft Foundry
 * Generative AI applications
-* Azure AI agents
+* Agentic AI solutions
 * Retrieval-augmented generation
 * Azure AI Search
 * Computer vision
-* Language and speech services
-* Document intelligence and information extraction
-* Responsible AI, security, monitoring, and governance
-
-The exam is not just about remembering service names. Many questions are likely to be scenario-based, where the important skill is choosing the right design pattern or Azure service for a specific requirement.
-
-This repo is built around that idea.
-
----
-
-## Study Map
-
-The notes are grouped around the official AI-103 skill areas.
-
-![AI-103 Study Guide Preview](./AI-103-StudyGuide/images/HTML-preview.png)
+* Text analysis
+* Speech services
+* Document intelligence
+* Information extraction
+* Responsible AI
+* Security, monitoring, governance, and cost control
 
 ---
 
@@ -64,18 +100,21 @@ AI-103-StudyGuide/
 ├── Chapter5-InformationExtraction.md
 ├── Appendix-Resources.md
 └── images/
-    └── HTML-preview.png
+    ├── exam-at-glance.png
+    └── ai-103-mindmap.png
 ```
+
+> Note: GitHub paths are case-sensitive. If your folder is named `ai-103-study-guide` instead of `AI-103-StudyGuide`, update the links in this README to match the actual folder name.
 
 ---
 
-## Chapters
+## Chapter Index
 
-### 1. Plan and Manage an Azure AI Solution
+### Chapter 1 — Plan and Manage an Azure AI Solution
 
-Official exam weighting: **25–30%**
+**Official exam weighting: 25–30%**
 
-This section covers the foundation of an Azure AI solution:
+This chapter covers the foundation of an Azure AI solution:
 
 * Choosing the right Azure AI service
 * Planning Microsoft Foundry resources
@@ -83,58 +122,62 @@ This section covers the foundation of an Azure AI solution:
 * Managing quotas, capacity, and cost
 * Applying identity and access control
 * Monitoring AI applications
-* Planning CI/CD for AI solutions
+* Planning CI/CD for AI workloads
 * Applying Responsible AI controls
 
-File: [Chapter1-PlanManage.md](./AI-103-StudyGuide/Chapter1-PlanManage.md)
+[Open Chapter 1](./AI-103-StudyGuide/Chapter1-PlanManage.md)
 
 ---
 
-### 2. Implement Generative AI and Agentic Solutions
+### Chapter 2 — Implement Generative AI and Agentic Solutions
 
-Official exam weighting: **30–35%**
+**Official exam weighting: 30–35%**
 
-This is the largest part of the exam and probably the most important area to understand deeply.
+This is the largest AI-103 domain and the area I expect to spend the most time on.
 
 Topics include:
 
-* Prompt engineering
-* Generative AI app design
+* Prompt design
+* Generative AI application patterns
 * Retrieval-augmented generation
 * Grounding with enterprise data
 * Function calling and tool use
 * Agent design
 * Multi-agent patterns
-* Knowledge connections
+* Knowledge sources
 * Fine-tuning considerations
-* Evaluating and improving AI responses
+* Evaluation and optimization
 
-File: [Chapter2-GenerativeAgents.md](./AI-103-StudyGuide/Chapter2-GenerativeAgents.md)
+[Open Chapter 2](./AI-103-StudyGuide/Chapter2-GenerativeAgents.md)
 
 ---
 
-### 3. Implement Computer Vision Solutions
+### Chapter 3 — Implement Computer Vision Solutions
 
-Official exam weighting: **10–15%**
+**Official exam weighting: 10–15%**
 
-This section covers vision and multimodal scenarios, including:
+This chapter covers image, video, and multimodal AI scenarios.
+
+Topics include:
 
 * Image analysis
 * Video and visual content processing
 * Multimodal model use cases
 * Image generation concepts
 * Visual content safety
-* When to use vision models versus traditional OCR or document processing
+* Choosing between vision models, OCR, and document processing
 
-File: [Chapter3-ComputerVision.md](./AI-103-StudyGuide/Chapter3-ComputerVision.md)
+[Open Chapter 3](./AI-103-StudyGuide/Chapter3-ComputerVision.md)
 
 ---
 
-### 4. Implement Text Analysis Solutions
+### Chapter 4 — Implement Text Analysis Solutions
 
-Official exam weighting: **10–15%**
+**Official exam weighting: 10–15%**
 
-This section focuses on language and speech capabilities:
+This chapter focuses on language and speech capabilities.
+
+Topics include:
 
 * Language detection
 * Sentiment analysis
@@ -145,15 +188,17 @@ This section focuses on language and speech capabilities:
 * Text-to-speech
 * Speech-enabled AI applications and agents
 
-File: [Chapter4-TextAnalysis.md](./AI-103-StudyGuide/Chapter4-TextAnalysis.md)
+[Open Chapter 4](./AI-103-StudyGuide/Chapter4-TextAnalysis.md)
 
 ---
 
-### 5. Implement Information Extraction Solutions
+### Chapter 5 — Implement Information Extraction Solutions
 
-Official exam weighting: **10–15%**
+**Official exam weighting: 10–15%**
 
-This section covers extracting and retrieving knowledge from documents and data sources:
+This chapter covers extracting, indexing, and retrieving knowledge from documents and data sources.
+
+Topics include:
 
 * Azure AI Document Intelligence
 * OCR
@@ -163,43 +208,60 @@ This section covers extracting and retrieving knowledge from documents and data 
 * Vector search
 * Hybrid search
 * Semantic ranking
-* Using search results to ground generative AI responses
+* Grounding generative AI responses with search results
 
-File: [Chapter5-InformationExtraction.md](./AI-103-StudyGuide/Chapter5-InformationExtraction.md)
-
----
-
-## How I Use These Notes
-
-My suggested study order is:
-
-1. Start with **Chapter 1** to understand the platform, management, security, and planning topics.
-2. Spend the most time on **Chapter 2**, because generative AI and agents have the highest weighting.
-3. Study Chapters 3, 4, and 5 as capability areas that can be added to AI apps and agents.
-4. Use the appendix for final revision, links, and quick checks.
-5. Revisit the official Microsoft study guide before the exam.
+[Open Chapter 5](./AI-103-StudyGuide/Chapter5-InformationExtraction.md)
 
 ---
 
-## Key AI-103 Design Questions
+### Appendix — Resources and Exam Tips
 
-These are the types of questions I try to answer while studying:
+The appendix contains supporting resources for final review.
 
-* Should this solution use RAG, fine-tuning, prompt engineering, or a combination?
-* Is an agent actually needed, or would a normal workflow be safer and simpler?
-* What data should be indexed, chunked, embedded, and retrieved?
-* How should the AI application authenticate to Azure services?
-* How should tool access be restricted for an agent?
-* How do I reduce hallucinations and improve grounding?
-* How should I evaluate response quality and safety?
-* How do cost, latency, reliability, and security affect the design?
+Topics include:
+
+* Mind map
+* Useful Microsoft Learn links
+* Exam preparation notes
+* Quick revision reminders
+* Final readiness checklist
+
+[Open Appendix](./AI-103-StudyGuide/Appendix-Resources.md)
+
+---
+
+## Suggested Study Order
+
+My preferred study order is:
+
+1. Start with **Chapter 1** to understand the platform, planning, management, security, and governance topics.
+2. Spend the most time on **Chapter 2**, because generative AI and agentic solutions are the largest domain.
+3. Study **Chapter 5** early, because retrieval, search, and grounding appear in many generative AI scenarios.
+4. Use **Chapters 3 and 4** to cover vision, language, and speech workloads.
+5. Finish with the **Appendix** and revisit the official Microsoft study guide before the exam.
+
+---
+
+## Questions I Use for Exam Practice
+
+These are the design questions I keep coming back to while studying:
+
+* Should this solution use RAG, fine-tuning, prompt engineering, tool use, or a combination?
+* Is an agent really needed, or would a normal workflow be safer and simpler?
+* Which Azure AI service is the best fit for this task?
+* What data needs to be indexed, chunked, embedded, or filtered?
+* How should the application authenticate to Azure services?
+* How should agent tools be restricted?
+* How can the solution reduce hallucinations?
+* How should AI output quality and safety be evaluated?
+* How do cost, latency, reliability, and security affect the architecture?
 * What Responsible AI controls are required?
 
 ---
 
-## Responsible AI Notes
+## Responsible AI Focus
 
-Responsible AI appears across the whole exam, not just as a separate topic.
+Responsible AI is not a separate side topic for AI-103. It appears across planning, generative AI, agents, vision, language, search, and information extraction.
 
 Important areas include:
 
@@ -208,26 +270,48 @@ Important areas include:
 * Grounded responses
 * Source citation and traceability
 * Human review for high-risk outputs
-* Secure use of tools and plugins
+* Secure tool access
 * Privacy and data protection
-* Monitoring and auditing AI behaviour
+* Monitoring and auditing
 * Evaluation of quality, safety, and reliability
 
-For AI-103, it is important to understand not only how to build AI apps, but also how to build them safely.
+For AI-103, the goal is not only to know how to build AI apps. You also need to understand how to build them safely, securely, and responsibly.
 
 ---
 
 ## Useful Microsoft Learn Resources
 
 * [Microsoft Foundry documentation](https://learn.microsoft.com/en-us/azure/foundry/)
-* [Microsoft Foundry models](https://learn.microsoft.com/en-us/azure/foundry-classic/concepts/foundry-models-overview)
-* [Develop AI agents on Azure](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/)
+* [Microsoft Foundry models](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/)
 * [Azure AI Search documentation](https://learn.microsoft.com/en-us/azure/search/)
 * [Azure AI Document Intelligence documentation](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/)
 * [Azure AI Language documentation](https://learn.microsoft.com/en-us/azure/ai-services/language-service/)
 * [Azure AI Vision documentation](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/)
 * [Azure AI Speech documentation](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/)
 * [Azure AI Content Safety documentation](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/)
+* [Azure AI Foundry Agent Service documentation](https://learn.microsoft.com/en-us/azure/foundry/agents/)
+
+---
+
+## Notes About Accuracy
+
+This repo is based on my own study notes, hands-on practice, Microsoft Learn, public Microsoft documentation, and ideas refined while reviewing other public AI-103 preparation material.
+
+Azure AI changes quickly. Microsoft Foundry, model availability, SDKs, agent capabilities, and exam objectives can change over time. I try to keep the notes current, but always verify critical details against the official Microsoft documentation.
+
+---
+
+## Contributions
+
+This is mainly a personal study repository, but corrections and suggestions are welcome.
+
+Open an issue or pull request if you find:
+
+* Broken links
+* Outdated Microsoft service names
+* Incorrect exam objective mapping
+* Unclear explanations
+* Useful examples or labs worth adding
 
 ---
 
@@ -235,22 +319,18 @@ For AI-103, it is important to understand not only how to build AI apps, but als
 
 This is an unofficial study repository.
 
-It is based on my own notes, public Microsoft documentation, Microsoft Learn materials, and hands-on study. It is not endorsed by Microsoft and does not replace the official AI-103 exam guide.
+It is not endorsed by Microsoft and does not replace the official AI-103 exam guide, Microsoft Learn, hands-on labs, or product documentation.
 
-Do not treat this repository as the only preparation source. Use it together with Microsoft Learn, official documentation, hands-on labs, and real Azure practice.
+The repository was inspired by the structure of another public AI-103 study guide, but the notes, wording, visuals, and updates here are maintained as my own study version.
 
----
-
-## Contributions
-
-This is mainly a personal study repo, but suggestions and corrections are welcome.
-
-If you notice outdated information, broken links, or unclear explanations, feel free to open an issue or submit a pull request.
+Always check the original repository license before copying or reusing any material from other public repositories.
 
 ---
 
 ## Final Note
 
-AI-103 is not only about knowing Azure AI services. It is about understanding how to design useful, secure, grounded, and responsible AI applications.
+AI-103 is about more than knowing individual Azure AI services.
 
-Build small examples, compare design options, and focus on the reasoning behind each Azure AI pattern.
+The exam expects you to understand how to design useful, secure, grounded, and responsible AI applications on Azure.
+
+Build small examples, compare architecture options, and focus on the reasoning behind each design choice.
